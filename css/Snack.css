@@ -1,0 +1,62 @@
+.fixed-left{
+    position: fixed;
+    bottom: 20px;   
+    left: 20px;
+    z-index: 1000;
+    padding: 10px 20px;
+    background: #f878f8;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.fixed-right{
+    position: fixed;
+    bottom: 20px;    
+    right: 20px;     
+    z-index: 1000;;
+    padding: 10px 20px;
+    background: #f878f8;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;   
+}
+.menu {
+    background-color: #f0fdf4;
+    padding: 3rem 2rem;
+}
+.card {
+    background-color: #f878f8;
+    border: 2px solid #ae37ae; 
+    border-radius: 15px;       
+    padding: 15px 20px;
+    box-shadow: 4px 4px 10px;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-3px); 
+}
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.3rem;
+}
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #166534;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.price {
+    margin: 0;
+    color: #e67e22; 
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.menu-grid {
+    background-color: #f78f8f;
+    border-color: coral;
+    padding: auto;
+}
